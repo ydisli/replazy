@@ -39,4 +39,7 @@ Installation Guide for Chrome and Microsoft Edge
 
 
 OR
-$ git clone https://github.com/ydisli/replazy
+```
+  $ git clone https://github.com/ydisli/replazy
+```
+
