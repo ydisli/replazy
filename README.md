@@ -37,3 +37,6 @@ Installation Guide for Chrome and Microsoft Edge
 
 *   After installation, the extension should be enabled by default.
 
+
+OR
+$ git clone https://github.com/ydisli/replazy
