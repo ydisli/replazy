@@ -2,7 +2,7 @@
 (function () {
   "use strict";
 
-  // Create the buttons
+  // Create the buttons, styling with JS is needed to avoid some style conflicts and overrides 
   function createButton(iconCode, onClick) {
     const button = document.createElement("button");
     button.innerHTML = iconCode;
