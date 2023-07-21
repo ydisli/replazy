@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Replazy",
+  "version": "1.0",
+  "description": "Add 3 buttons to Gmail interface: reply, reply to all, and forward",
+  "icons": {
+    "16": "images/reply.png",
+    "32": "images/reply.png",
+    "48": "images/reply.png",
+    "128": "images/reply.png"
+  },
+  "content_scripts": [
+    {
+      "js": ["scripts/content.js"],
+      "css": ["styles/styles.css"],
+      "matches": [
+        "https://mail.google.com/*"
+      ]
+    }
+  ],
+  "host_permissions": [
+    "https://mail.google.com/*"
+  ]
+}
